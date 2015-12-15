@@ -1,0 +1,36 @@
+{
+  "name": "djdj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-2": "^6.3.13",
+    "babel-preset-stage-3": "^6.3.13",
+    "babel-register": "^6.3.13",
+    "electron-prebuilt": "^0.35.4",
+    "id3js": "^1.1.3",
+    "mp4js": "0.0.2",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-redux": "^4.0.1",
+    "redux": "^3.0.5"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-2",
+      "stage-3",
+      "react"
+    ]
+  }
+}
